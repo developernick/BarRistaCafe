@@ -1,0 +1,32 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+	/*------------------Header start---------------------*/
+
+	.page-header{
+		height: 50%;
+		border: none;
+	}
+	li h1{
+		font-size: 1.4em;
+	}
+	ul{
+		margin: 0 auto;
+		padding: 0;
+	}
+	.headingImg{
+
+	}
+	/*Header End*/
+
+	/*About Start*/
+	.aboutSect{
+		margin-top: 2em;
+
+	}
+	.abtDesc{
+		font-family: 'Lato', sans-serif;
+	}
+	/*About End*/

@@ -14,10 +14,10 @@
  *= require_self
  */
 body{
-	background-color: #F5F5F5;
-	/*background-image: url("images/bulb.jpg");
+	/*background-color: #F5F5F5;*/
+	background-image: url("wood.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;*/
+	background-size: cover;
 }
 li{
 	list-style: none;

@@ -10,7 +10,8 @@
 		border: none;
 	}
 	li h1{
-		font-size: 1.4em;
+		font-size: 1.3em;
+		text-align: center;
 	}
 	ul{
 		margin: 0 auto;
@@ -22,11 +23,37 @@
 	/*Header End*/
 
 	/*About Start*/
+	#abtImg{
+		height: auto;
+		width: 33%;
+
+	}
+
 	.aboutSect{
 		margin-top: 2em;
 
 	}
 	.abtDesc{
 		font-family: 'Lato', sans-serif;
+		text-align: center;
+		font-size: 1.3em;
 	}
 	/*About End*/
+	// ----------Extra Content Start-----------
+	.hours{
+		text-align: center;
+		font-family: 'Great Vibes', cursive;
+		font-size: 2em;
+		}
+		.hours h2	{
+			font-weight: 800;
+			border-bottom: 2px solid black;
+		}
+	.contentSect{
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+	.conpic{
+		height: 22em;
+	}
+	// Extra Content End

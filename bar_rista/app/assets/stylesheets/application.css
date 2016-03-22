@@ -38,13 +38,14 @@ li{
 	.navbar{
 		margin: 0 auto;
 	}
-	.logo{
-		color: rgb(170, 166, 48);
-		font-family: 'Allura', cursive;
-		font-size: 2.5em;
-	}
+
 	.nav a{
 		font-family: 'Lato', sans-serif;
-		font-size: 1.4em;
+		font-size: 1.2em;
+	}
+	.navbar-brand{
+		font-size: 3em;
+		color: rgb(170, 166, 48);
+		font-family: 'Allura', cursive;
 	}
 	/*NavBar End*/

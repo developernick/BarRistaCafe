@@ -2,7 +2,7 @@
 			<!-- Page Header -->
 			<div class="page-header row">
 				<div class="col-sm-12">
-							<%= image_tag 'indoor.jpg', :class => "col-sm-8 media-object" %>
+							<%= image_tag 'indoor.jpg', :class => "col-sm-8 media-object borderImg" %>
 					<div class="col-sm-4 ">
 						<ul class="row">
 							<li id="logo"  class="logo">
@@ -21,30 +21,30 @@
 			<!--  Page Header end -->
 
 			<!-- About Section -->
-				<div class="row aboutSect">
-					<div class="col-sm-12">
-							<%= image_tag 'outdoor.jpg', :class => "col-sm-4", :id => "abtImg" %>
-						<div class="col-sm-4 abtDesc test2">
+				<div class="row">
+					<div class="col-sm-12 aboutSect">
+							<%= image_tag 'outdoor.jpg', :class => "col-sm-4 borderImg", :id => "abtImg" %>
+						<div class="col-sm-4 abtDesc">
 							<p>
 								Bar Rista Cafe is a fresh take on contemporary American classics with a twist. We offer a laid-back neighborhood vibe paired with fresh, homemade food. We’ve decided to go back to the basics to give our neighborhood simple, good and consistent food and service. We are your local go-to for grabbing a sandwich, salad, beer or glass of wine. We know you’ll come back because of our quality, everyday menu items, and friendly, welcoming service.
 							</p>
 						</div>
-						<iframe class= "col-sm-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2966.79578817193!2d-87.67800068557659!3d41.961721168157844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd23dc9ac5a53%3A0x10998bce394be768!2sBar+Rista+Cafe!5e0!3m2!1sen!2sus!4v1458336178720" width="406" height="280" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<iframe class= "col-sm-4 borderImg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2966.79578817193!2d-87.67800068557659!3d41.961721168157844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd23dc9ac5a53%3A0x10998bce394be768!2sBar+Rista+Cafe!5e0!3m2!1sen!2sus!4v1458336178720" width="406" height="318" frameborder="0" style="border: white 1em solid" allowfullscreen></iframe>
 					</div>
 
 			<!-- About Section End -->
 			<!-- Extra content ..... Picture Picture Hours -->
 			<div class="row">
 				<div class="contentSect col-sm-12">
+					<%= image_tag 'beertaps.jpg', :class => "col-sm-4 media-object conpic borderImg" %>
 					<div class="hours col-sm-4">
 						<h2>Hours</h2>
-						<ul>
-							<li>Sunday to Thursday <br> 11:00am to 11:00pm </li>
-							<li>Friday and Saturday <br> 10:00am to Midnight</li>
+						<ul id="hours">
+							<li class="days">Sunday to Thursday <br> 11:00am to 11:00pm </li>
+							<li class="days">Friday and Saturday <br> 10:00am to Midnight</li>
 						</ul>
 					</div>
-					<%= image_tag 'beertaps.jpg', :class => "col-sm-4 media-object conpic" %>
-					<%= image_tag 'sandwhich.JPG', :class => "col-sm-4 media-object conpic" %>
+					<%= image_tag 'sandwhich.JPG', :class => "col-sm-4 media-object conpic borderImg" %>
 				</div>
 			</div>
 			<!-- Extra Content End -->

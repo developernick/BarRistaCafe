@@ -30,10 +30,17 @@ li{
 	border: 2px grey solid;
 	height: 282px;
 }
+.borderImg{
+	border: white 1em solid;
+	padding: 0;
+}
 	/*NavBar Start*/
+	.navbar{
+		margin: 0 auto;
+	}
 	.logo{
 		color: rgb(170, 166, 48);
-		font-family: 'Great Vibes', cursive;
+		font-family: 'Allura', cursive;
 		font-size: 2.5em;
 	}
 	.nav a{

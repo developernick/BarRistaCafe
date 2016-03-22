@@ -8,6 +8,7 @@
 	.page-header{
 		height: 50%;
 		border: none;
+		margin: 0 auto;
 	}
 	li h1{
 		font-size: 1.3em;
@@ -17,9 +18,7 @@
 		margin: 0 auto;
 		padding: 0;
 	}
-	.headingImg{
 
-	}
 	/*Header End*/
 
 	/*About Start*/
@@ -30,32 +29,44 @@
 	}
 
 	.aboutSect{
-		margin-top: 2em;
+		margin: 0 auto;
+		padding: 0;
 
 	}
 	.abtDesc{
+		height: 318px;
 		font-family: 'Lato', sans-serif;
 		text-align: center;
 		font-size: 1.3em;
-		background-color: grey;
-		background-blend-mode: lighten;
+		color: white;
+		padding: 1em;
 	}
 	/*About End*/
 	// ----------Extra Content Start-----------
+	#hours{
+		margin: 2em;
+	}
 	.hours{
 		text-align: center;
-		font-family: 'Great Vibes', cursive;
-		font-size: 2em;
+		font-family: 'Lato', sans-serif;
+		font-size: 1.5em;
+		color: white;
 		}
 		.hours h2	{
+			font-size: 2em;
 			font-weight: 800;
-			border-bottom: 2px solid black;
+			border-bottom: 2px solid white;
+			font-family: 'Allura', cursive;
+		}
+		.days{
+			margin-top: 1em;
 		}
 	.contentSect{
-		margin-top: 2em;
+		// margin-top: 2em;
 		margin-bottom: 2em;
 	}
 	.conpic{
+		width:33%;
 		height: 22em;
 	}
 	// Extra Content End
